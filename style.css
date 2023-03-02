@@ -1,0 +1,176 @@
+.navlogo{
+    width: 80px;
+}
+#intro{
+    padding: 5%;
+    padding-top: 10%;
+    background-image: linear-gradient(white,rgba(49, 145, 255, 0.26),white);
+    
+   
+}
+.heading{
+    margin-top: 10%;
+}
+.introdes{
+    width: 90%;
+}
+.introbutton{
+    border-width: 0px;
+    border-color: rgb(0, 183, 255);
+    background-image: linear-gradient(rgb(49, 145, 255),rgb(0, 174, 255) );
+
+    color: rgb(255, 253, 253);
+    padding: 2%;
+    font-weight: bold;
+    border-radius: 4%;
+    transition: transform .2s;
+
+}
+.introbutton:hover{
+    transform: scale(1.1);
+    color: aliceblue;
+    background-color: rgb(54, 158, 255);
+}
+.introimg{
+    border-radius: 5%;
+    width: 100%;
+    padding-top: 5%;
+    
+}
+.keypoint{
+padding: 4%;
+margin-top: 4%;
+margin-left: 30%;
+border-radius: 4%;
+background-image: linear-gradient(rgba(31, 136, 255, 0.288),rgba(0, 100, 214, 0.301));
+}
+.explore{
+    border-width: 0;
+    color: aliceblue;
+    background-image: linear-gradient(rgb(0, 110, 255),rgb(26, 146, 243));
+    padding: 2%;
+    margin-top: 3%;
+    border-radius: 5%;
+    font-weight: bold;
+    transition: transform .2s;
+}
+.explore:hover{
+    transform: scale(1.1);
+}
+hr{
+    width:100%;
+    color: rgb(0, 102, 185);  
+    height: 4px;  
+    margin-top: 5%;
+}
+#services{
+   padding-left: 5%;
+   padding-right: 5%;
+   text-align: center;
+}
+.serviceheading{
+    padding:4% ;
+
+}
+.servicecard{
+width: 100%;
+padding: 2%;
+margin-bottom: 5%;
+/* background-image: linear-gradient(rgba(31, 136, 255, 0.288),rgba(0, 100, 214, 0.301)); */
+box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.card-img-top{
+    border-radius: 5%;
+}
+.container {
+    position: relative;  
+    width:100%;
+}
+.container:before {
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;left:0;right:0;
+  background-color:rgba(0,0,0,0);
+}
+.container:hover::before {
+  background-color:rgba(255, 255, 255, 0.5);
+}
+.container img {
+  display:block;
+}
+.container button {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity:0;
+} 
+.container:hover button {   
+  opacity: 1;
+}
+.servicebtn{
+    border-width: 0;
+    color: aliceblue;
+    background-image: linear-gradient(rgb(0, 110, 255),rgb(26, 146, 243));
+    padding: 2%;
+    margin-top: 3%;
+    border-radius: 5%;
+    font-weight: bold;
+}
+#contacts{
+    padding: 5%;
+    background-image: linear-gradient(white,rgba(0, 110, 255, 0.384));
+}
+.call{
+    margin: 2%;
+}
+.Contactus{
+    padding: 2%;
+}
+.cont{
+    margin-left: 1%;
+    text-decoration: solid;
+    font-weight: bold;
+}
+.social{
+    
+}
+.socialico{
+    margin: 5%;
+    color: black;
+}
+.up{
+    color: aliceblue;
+    background-image: linear-gradient(rgba(0, 110, 255, 0.918),rgba(26, 145, 243, 0.178));
+
+   padding: 3%;
+   border-radius: 50%; 
+   width: 60px;
+   height: 60px;
+   border-width: 0;
+   margin-left: 25%;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   transition: transform .2s;
+}
+.up:hover{
+    transform: scale(1.1);
+}
+#footer{
+    text-align: center;
+    padding-bottom: 2%;
+    
+    background-image: linear-gradient(rgba(0, 110, 255, 0.384),rgba(0, 110, 255, 0.644)); */
+
+}
+.Copyright{
+    font-weight: bold;
+}
+.hesed{
+    text-decoration: solid;
+    color: rgb(0, 31, 99);
+    font-weight: bold;
+    margin-bottom: 2%;
+}
